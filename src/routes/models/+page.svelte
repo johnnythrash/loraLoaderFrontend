@@ -1,5 +1,5 @@
 <script context="module">
-	import ModelList from '../../components/ModelList.svelte';
+	import ModelList from '../ModelList.svelte';
 
 	export async function load({ fetch }) {
 		const res = await fetch('/api/models');
